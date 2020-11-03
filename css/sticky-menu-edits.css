@@ -33,7 +33,7 @@ html {
     bottom: 50px;
     right: 0;
     background-color: #FFF;
-    color: #337AB7;
+    color: #3a648a;
     text-align: center;
     font-size: 30px;
     text-decoration: none;
@@ -52,7 +52,7 @@ html {
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #EFDECD;
+    background: #d0cdef;
 }
 .whatwedo-section {
     height: 100%;
@@ -64,7 +64,7 @@ html {
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #EFDECD;
+    background: #d0cdef;
 }
 .navbar-default .navbar-nav > li > a:hover {
 	color: #333;
