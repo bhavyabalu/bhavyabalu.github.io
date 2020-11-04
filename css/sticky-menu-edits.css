@@ -6,7 +6,7 @@ html {
     width: 100%;
     height: 100%;
 }
-@media(min-width:767px) {
+@media(min-width:500px) {
     .navbar {
         padding: 20px 0;
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -43,39 +43,61 @@ html {
     color: #FFF;
 }
 .welcome-section {
-    height: 100%;
+    height: 70%;
+    width: 100%;
     padding-top: 150px;
-    text-align: center;
+    padding-left: 250px;
+    padding-right: 250px;
+    text-align: justify;
     background: #fff;
+    font-family: 'Gill Sans MT';
+    font-size: large;
 }
-.about-section {
-    height: 100%;
-    padding-top: 150px;
-    text-align: center;
-    background: #d0cdef;
+.research-section {
+    height: 50%;
+    padding-top: 50px;
+    text-align: justify;
+    background: #e3e2f5;
+    font-family: 'Gill Sans MT';
+    font-size: large;
 }
-.whatwedo-section {
-    height: 100%;
-    padding-top: 150px;
-    text-align: center;
+.pubs-section {
+    height: 50%;
+    padding-top: 50px;
+    text-align: left;
     background: #fff;
+    font-family: 'Gill Sans MT';
+    font-size: large;
 }
 .contact-section {
-    height: 100%;
-    padding-top: 150px;
-    text-align: center;
-    background: #d0cdef;
+    height: 50%;
+    padding-top: 50px;
+    text-align: justify;
+    background: #e3e2f5;
+    font-family: 'Gill Sans MT';
+    font-size: large;
 }
 .navbar-default .navbar-nav > li > a:hover {
-	color: #333;
-	background-color: #F0F0F0;
+	color: rgb(0, 0, 0);
+    background-color: #F0F0F0;
+    font-family: 'Gill Sans MT';
+    font-size: medium;
+
 }
 .navbar-default {
-    background-color: #EBFAFF;
-    border-color: #e7e7e7;
+    background-color: #b5b4ce;
+    border-color: #b5b4ce;
 }
 .navbar-default .navbar-nav > li > a {
     color: #000;
+    font-family: 'Gill Sans MT';
+    font-size: medium;
+
+}
+
+img{
+    float: left;
+        
 }
 
 
